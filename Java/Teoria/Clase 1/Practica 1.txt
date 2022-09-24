@@ -1,0 +1,47 @@
+Taller de Programación 2022 – Módulo POO
+Práctica 1
+Introducción a Java. Matrices.
+Objetivo. Realizar programas simples que lean datos desde teclado, generen datos 
+aleatorios, muestren datos en consola y manipulen variables de tipos simples, 
+String y arreglos. Familiarizarse con el entorno Netbeans.
+Nota: Trabajar sobre la carpeta “tema1” del proyecto
+
+
+1- Analice el programa Ej01Tabla2.java, que carga un vector que representa la 
+tabla del 2. Luego escriba las instrucciones necesarias para:
+- generar enteros aleatorios hasta obtener el número 11. Para cada número 
+muestre el resultado de multiplicarlo por 2 (accediendo al vector).
+
+
+2- Escriba un programa que lea las alturas de los 15 jugadores de un equipo de 
+básquet y las almacene en un vector. Luego informe: 
+- la altura promedio
+- la cantidad de jugadores con altura por encima del promedio
+NOTA: Dispone de un esqueleto para este programa en Ej02Jugadores.java
+
+
+3- Escriba un programa que defina una matriz de enteros de tamaño 5x5. Inicialice 
+la matriz con números aleatorios entre 0 y 30. 
+Luego realice las siguientes operaciones: 
+- Mostrar el contenido de la matriz en consola. 
+- Calcular e informar la suma de los elementos de la fila 1
+- Generar un vector de 5 posiciones donde cada posición j contiene la suma 
+de los elementos de la columna j de la matriz. Luego, imprima el vector.
+- Lea un valor entero e indique si se encuentra o no en la matriz. En caso de 
+encontrarse indique su ubicación (fila y columna) en caso contrario 
+imprima “No se encontró el elemento”.
+NOTA: Dispone de un esqueleto para este programa en Ej03Matrices.java
+
+
+4- Un edificio de oficinas está conformado por 8 pisos (1..8) y 4 oficinas por piso
+(1..4). Realice un programa que permita informar la cantidad de personas que 
+concurrieron a cada oficina de cada piso. Para esto, simule la llegada de personas al 
+edificio de la siguiente manera: a cada persona se le pide el nro. de piso y nro. de 
+oficina a la cual quiere concurrir. La llegada de personas finaliza al indicar un nro. 
+de piso 9. Al finalizar la llegada de personas, informe lo pedido.
+5- El dueño de un restaurante entrevista a cinco clientes y les pide que califiquen 
+(con puntaje de 1 a 10) los siguientes aspectos: (0) Atención al cliente (1) Calidad 
+de la comida (2) Precio (3) Ambiente.
+Escriba un programa que lea desde teclado las calificaciones de los cinco clientes 
+para cada uno de los aspectos y almacene la información en una estructura. Luego 
+imprima la calificación promedio obtenida por cada aspecto
