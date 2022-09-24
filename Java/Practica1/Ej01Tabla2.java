@@ -20,6 +20,7 @@ public class Ej01Tabla2 {
         int i;
         for (i=0;i<DF;i++) 
             tabla2[i]=2*i;
+        //System.out.println("2x" + "5" + "="+ tabla2[5]);
         numV = GeneradorAleatorio.generarInt(12); // Inicializo la variable para tener la condicion de entrada al while
         while (numV !=11){
             System.out.println("El resultado de 2x" + numV + " es = " + tabla2[numV]);
