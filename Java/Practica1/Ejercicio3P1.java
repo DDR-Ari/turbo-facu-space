@@ -64,15 +64,13 @@ public class Ejercicio3P1 {
         System.out.println("Ingrese el numero entero a buscar");
         int num = Lector.leerInt(); 
         boolean encontro = false;
-        for (i = 0; i < 5; i++){
-            for (j = 0; j < 5; j++){
+        /*
                if(matriz[i][j] == num){
                    System.out.println("El numero "+ num + " se encuentra en la fila y columna " + i+ " " + j );
                    encontro = true;
                }
             }
                     }
-        if(encontro == false)
-                   System.out.println ("El numero "+num+" no se encuentra en la matriz");
+  */
     }
 }
